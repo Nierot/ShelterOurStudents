@@ -1,10 +1,9 @@
 name: 'Deploy to GitHub pages'
-description: 'Builds the app and pushes to the ghpages branch'
 on: push
 jobs:
   deploy:
-    using: 'composite'
     steps:
+      - uses: 'composite'
       - run: npm i
       - run: npm ci
       - run: npm run build
