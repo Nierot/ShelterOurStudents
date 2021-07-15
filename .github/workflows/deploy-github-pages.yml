@@ -2,6 +2,7 @@ name: 'Deploy to GitHub pages'
 on: push
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     steps:
       - uses: 'composite'
       - run: npm i
