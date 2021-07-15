@@ -1,0 +1,13 @@
+name: 'Deploy to GitHub pages'
+description: 'Builds the app and pushes to the ghpages branch'
+runs:
+  using: 'composite'
+  steps:
+    - run: npm i
+    - run: npm ci
+    - run: npm run build
+    - run: git config user.name github-actions
+    - run: git config user.email github-actions@github.com
+    - run: git --work-tree build add --all
+    - run: git commit -m "Automatic build for GitHub pages"
+    - run: git push origin HEAD:ghpages --force
