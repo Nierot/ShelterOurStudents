@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import { MenuIcon } from '@heroicons/react/solid'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = ({ lang }) =>
+  <div className="h-screen">
+    <header className="w-full h-16 grid grid-cols-6">
+      <div className="col-span-1">
+        Logo
+      </div>
+      <div className="col-span-4">
+        {lang.title}
+      </div>
+      <div className="col-span-1 flex justify-center">
+        <MenuIcon className="w-12 "/>
+      </div>
+    </header>
+    <Router>
+      <Switch>
+        <Route exact path="/about">
+          About
+          <Footer />
+        </Route>
+
+        <Route path="/">
+          Home
+          <Footer lang={lang}/>
+        </Route>
+
+        <Route>
+          <Redirect to="/" />
+        </Route>
+      </Switch>
+    </Router>
+
+
+  </div>
+
+const Footer = lang => 
+  <footer className="w-full">
+    footer
+  </footer>
 
 export default App;

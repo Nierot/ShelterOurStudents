@@ -1,0 +1,46 @@
+{
+    "iso": "en-GB",
+    "title": "Shelter Our Students",
+    "menu": {
+        "about": "About us",
+        "demands": "Our demands",
+        "haveHouse": "I can host",
+        "needHouse": "I need a house",
+        "rights": "Rights",
+        "duties": "Duties"
+    },
+    "footer": {
+        "termsOfUse": "Terms of Use",
+        "privacy": "Privacy",
+        "liability": "Liability"
+    },
+    "pages": {
+        "about": {
+
+        },
+        "demands": {
+
+        },
+        "haveHouse": {
+
+        },
+        "needHouse": {
+
+        },
+        "rights": {
+
+        },
+        "duties": {
+
+        },
+        "termsOfUse": {
+
+        },
+        "privacy": {
+
+        },
+        "liability": {
+            
+        }
+    }
+}
