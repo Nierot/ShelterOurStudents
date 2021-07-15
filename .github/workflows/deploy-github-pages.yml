@@ -1,5 +1,6 @@
 name: 'Deploy to GitHub pages'
 description: 'Builds the app and pushes to the ghpages branch'
+on: push
 runs:
   using: 'composite'
   steps:
