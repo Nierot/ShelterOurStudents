@@ -3,11 +3,10 @@
     "title": "",
     "menu": {
         "about": "",
-        "demands": "",
         "haveHouse": "",
         "needHouse": "",
-        "rights": "",
-        "duties": ""
+        "privacy": "",
+        "demands": ""
     },
     "footer": {
         "termsOfUse": "",
@@ -15,32 +14,44 @@
         "liability": ""
     },
     "pages": {
-        "about": {
+        "home": {
 
         },
-        "demands": {
-
+        "about": {
+            "whoAreWe": {
+                "title": "",
+                "text": ""
+            },
+            "theProblem": {
+                "title": "",
+                "text": ""
+            },
+            "toDo": {
+                "title": "",
+                "text": "",
+                "links": {
+                    "host": "",
+                    "need": ""
+                }
+            }
         },
         "haveHouse": {
-
+            "explanation": "",
+            "link": ""
         },
         "needHouse": {
-
-        },
-        "rights": {
-
-        },
-        "duties": {
-
-        },
-        "termsOfUse": {
-
+            "explanation": "",
+            "link": ""
         },
         "privacy": {
 
         },
-        "liability": {
-            
+        "demands": {
+            "title": "",
+            "text": {
+                "preface": "",
+                "list": []
+            }
         }
     }
 }
