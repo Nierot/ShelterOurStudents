@@ -1,48 +1,70 @@
-import { MenuIcon } from '@heroicons/react/solid'
+import { useState } from 'react'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect
 } from 'react-router-dom'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Menu from './components/Menu'
+import About from './pages/About'
+import Demands from './pages/Demands'
+import Home from './pages/Home'
+import HostHouse from './pages/HostHouse'
+import NeedHouse from './pages/NeedHouse'
+import Privacy from './pages/Privacy'
 
-const App = ({ lang }) =>
-  <div className="h-screen">
-    <header className="w-full h-16 grid grid-cols-6">
-      <div className="col-span-1">
-        Logo
-      </div>
-      <div className="col-span-4">
-        {lang.title}
-      </div>
-      <div className="col-span-1 flex justify-center">
-        <MenuIcon className="w-12 "/>
-      </div>
-    </header>
-    <Router>
-      <Switch>
-        <Route exact path="/about">
-          About
-          <Footer />
-        </Route>
+const App = ({ lang }) => {
 
-        <Route path="/">
-          Home
-          <Footer lang={lang}/>
-        </Route>
+  const [menuOpen, setMenuOpen] = useState(false)
 
-        <Route>
-          <Redirect to="/" />
-        </Route>
-      </Switch>
-    </Router>
+  const toggle = () => setMenuOpen(!menuOpen)
+
+  return (
+    <div className="h-screen">
+      <Header lang={lang} toggle={toggle} open={menuOpen}/>
+      <Router>
+        {menuOpen ? 
+          <Menu lang={lang} /> :
+          <Switch >
+            <Route exact path="/about">
+              <About lang={lang} />
+              <Footer />
+            </Route>
+            <Route exact path="/host-house">
+              <HostHouse lang={lang} />
+              <Footer />
+            </Route>
+
+            <Route exact path="/need-house">
+              <NeedHouse lang={lang} />
+              <Footer />
+            </Route>
+
+            <Route exact path="/privacy">
+              <Privacy lang={lang} />
+              <Footer />
+            </Route>
+
+            <Route exact path="/demands">
+              <Demands lang={lang} />
+              <Footer />
+            </Route>
 
 
-  </div>
+            <Route path="/">
+              <Home lang={lang}/>
+              <Footer lang={lang}/>
+            </Route>
 
-const Footer = lang => 
-  <footer className="w-full">
-    footer
-  </footer>
-
+            <Route>
+              <Redirect to="/" />
+            </Route>
+          </Switch>
+        }
+      </Router>
+    </div>
+  )
+}
 export default App;
