@@ -11,11 +11,15 @@
     "footer": {
         "termsOfUse": "Terms of Use",
         "privacy": "Privacy",
-        "liability": "Liability"
+        "liability": "Liability",
+        "info": "info",
+        "collaborate": "collaborate"
     },
     "pages": {
         "home": {
-            "text": "leuk tekstje"
+            "text": "TODO leuk tekstje",
+            "help": "TODO I want to help",
+            "need": "TODO I need help"
         },
         "about": {
             "whoAreWe": {
@@ -30,8 +34,8 @@
                 "title": "What are we going to do?",
                 "text": "Everyone deserves a roof over their head. Therefore we continue campaigning for enough emergency housing now, as well as structural solutions to the housing problem in Groningen. Next to this, we are organizing a couch surfing action. People needing a temporary house can stay for a few days or longer with someone else. For example, maybe in the bedroom of a child that left for university in another town, on the couch in your student house, or on an air mattress in your living room.",
                 "links": {
-                    "host": "Click here if you want to help by offering a place",
-                    "need": "Click here if you need a place to stay"
+                    "host": "I want to help by offering a place",
+                    "need": "I need a place to stay"
                 }
             }
         },

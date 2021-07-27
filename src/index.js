@@ -2,15 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { getLang } from './util';
 // import reportWebVitals from './reportWebVitals';
 
-const lang = getLang()
-document.title = lang.title
+document.title = 'Shelter Our Students'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App lang={lang}/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
