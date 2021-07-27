@@ -1,5 +1,5 @@
 const NeedHouse = ({ lang: { pages: { needHouse } } }) =>
-<div className="h-screen px-6 py-3">
+<div className="h-5/6 px-6 py-3">
   <div>
     { needHouse.explanation }
   </div>

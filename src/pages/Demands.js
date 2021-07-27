@@ -1,5 +1,5 @@
 const Demands = ({ lang: { pages: { demands }}}) =>
-<div className="px-6 py-3">
+<div className="px-6 py-3 h-5/6">
   <div className="font-bold text-left pb-1">
     { demands.title }
   </div>

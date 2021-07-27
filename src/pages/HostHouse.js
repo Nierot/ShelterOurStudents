@@ -1,5 +1,5 @@
 const HostHouse = ({ lang: { pages: { haveHouse } } }) =>
-<div className="h-screen px-6 py-3">
+<div className="h-5/6 px-6 py-3">
   <div>
     { haveHouse.explanation }
   </div>

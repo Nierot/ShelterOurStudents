@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 const Menu = ({ lang }) =>
 <div id="menu" className="z-10 h-auto w-full">
   <div className="grid grid-rows-5">

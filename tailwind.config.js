@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Montserrat', 'ui-sans-serif', 'system-ui']
+      },
+      colors: {
+        'primary': '#FB5F49',
+        'secondary': '#07133D',
+        'tertiary': '#D1D8D0'
       }
     },
   },

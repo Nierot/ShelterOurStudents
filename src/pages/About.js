@@ -1,9 +1,9 @@
 
 const About = ({ lang }) => {
-  const { pages: { about: { whoAreWe, theProblem, toDo, demands } } } = lang
+  const { pages: { about: { whoAreWe, theProblem, toDo } } } = lang
 
   return (
-    <div className="px-6 py-3">
+    <div className="px-6 pt-6 pb-12 bg-tertiary">
       <div>
         <div className="font-semibold">
           {whoAreWe.title}
@@ -14,7 +14,7 @@ const About = ({ lang }) => {
       </div>
 
       <div>
-        <div className="font-semibold pt-3">
+        <div className="font-semibold pt-6">
           {theProblem.title}
         </div>
         <div>
@@ -23,19 +23,20 @@ const About = ({ lang }) => {
       </div>
 
       <div>
-        <div className="font-semibold pt-3">
+        <div className="font-semibold pt-6">
           {toDo.title}
         </div>
         <div>
           {toDo.text}
           <br />
-          <a href="/host-house">
-            {toDo.links.host}
-          </a>
-          <br />
-          <a href="/need-house">
-            {toDo.links.need}
-          </a>
+          <div className="">
+            <div className="pt-2 text-secondary underline">
+              <a href="/host-house">{toDo.links.host}</a>
+            </div>
+            <div className="pt-2 text-secondary underline">
+              <a href="/need-house">{toDo.links.need}</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
