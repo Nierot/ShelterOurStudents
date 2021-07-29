@@ -6,3 +6,15 @@ html, body {
   height: 100%;
   margin: 0;
 }
+
+@font-face {
+  font-family: 'archiaregular';
+  src: url('font/archia-regular-webfont.eot');
+  src: url('font/archia-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/archia-regular-webfont.woff2') format('woff2'),
+       url('font/archia-regular-webfont.woff') format('woff'),
+       url('font/archia-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
