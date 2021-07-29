@@ -4,29 +4,32 @@ const About = ({ lang }) => {
 
   return (
     <div className="px-6 pt-6 pb-12 bg-tertiary">
+      <h1 className="text-2xl pb-3">
+        { lang.menu.about }
+      </h1>
       <div>
-        <div className="font-semibold">
+        <h2 className="font-title text-lg">
           {whoAreWe.title}
-        </div>
-        <div>
+        </h2>
+        <p>
           {whoAreWe.text}
-        </div>
+        </p>
       </div>
 
       <div>
-        <div className="font-semibold pt-6">
+        <h2 className="font-title text-lg pt-6">
           {theProblem.title}
-        </div>
-        <div>
+        </h2>
+        <p>
           {theProblem.text}
-        </div>
+        </p>
       </div>
 
       <div>
-        <div className="font-semibold pt-6">
+        <h2 className="font-title text-lg pt-6">
           {toDo.title}
-        </div>
-        <div>
+        </h2>
+        <p>
           {toDo.text}
           <br />
           <div className="">
@@ -37,7 +40,7 @@ const About = ({ lang }) => {
               <a href="/need-house">{toDo.links.need}</a>
             </div>
           </div>
-        </div>
+        </p>
       </div>
     </div>
   )

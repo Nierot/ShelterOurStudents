@@ -10,15 +10,15 @@ const Menu = ({ lang }) =>
 </div>
 
 const MenuItem = ({ name, to }) => 
-<div className="py-5 border-2 border-t-0 border-l-0 border-r-0">
-  <div className="flex justify-start items-center">
-    <div className="text-left pl-6 font-semibold text-2xl">
-      <a href={to}>
+<a href={to}>
+  <div className="py-5 border-2 border-t-0 border-l-0 border-r-0">
+    <div className="flex justify-start items-center">
+      <div className="text-left pl-6 font-medium text-2xl font-title">
         {name}
-      </a>
+      </div>
     </div>
   </div>
-</div>
+</a>
 
 
 export default Menu

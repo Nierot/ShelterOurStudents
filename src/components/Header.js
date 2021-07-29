@@ -7,9 +7,6 @@ const Header = ({ lang, toggle, open }) => {
         <a className="col-span-5" href="/">
           Logo
         </a>
-        {/* <a href="/" className="col-span-4 text-left text-xl flex justify-center flex-col font-semibold">
-          {lang.title}
-        </a> */}
         <div className="col-span-1 flex flex-row-reverse justify-start space-x-1" onClick={() => toggle()}>
           <div className="w-3"></div>
           {open ?

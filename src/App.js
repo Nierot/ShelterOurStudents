@@ -38,26 +38,26 @@ const App = () => {
         {menuOpen ? 
           <Menu lang={lang} /> :
           <Switch>
-            <Route exact path="/about">
+            <Route path="/about">
               <About lang={lang} />
               <Footer lang={lang} />
             </Route>
-            <Route exact path="/host-house">
+            <Route path="/host-house">
               <HostHouse lang={lang} />
               <Footer lang={lang} />
             </Route>
 
-            <Route exact path="/need-house">
+            <Route path="/need-house">
               <NeedHouse lang={lang} />
               <Footer lang={lang} />
             </Route>
 
-            <Route exact path="/privacy">
+            <Route path="/privacy">
               <Privacy lang={lang} />
               <Footer lang={lang} />
             </Route>
 
-            <Route exact path="/demands">
+            <Route path="/demands">
               <Demands lang={lang} />
               <Footer lang={lang} />
             </Route>
