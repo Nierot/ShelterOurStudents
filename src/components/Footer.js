@@ -34,6 +34,18 @@ const Footer = ({ lang }) =>
     </div>
   </div>
 
+  <div className="px-6 pt-6">
+    <div className="text-primary uppercase">
+      { lang.footer.social }
+    </div>
+
+    <div className="text-tertiary py-3">
+      <a href="https://www.instagram.com/shelterourstudents">
+        Instagram
+      </a>
+    </div>
+  </div>
+
   <div className="px-6 pt-6 h-20 text-tertiary">
     <a href="https://nierot.com/">
       Website made by 
