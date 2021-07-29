@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Montserrat', 'ui-sans-serif', 'system-ui']
+        'sans': ['Montserrat', 'ui-sans-serif', 'system-ui'],
+        'title': ['archiaregular']
       },
       colors: {
         'primary': '#FB5F49',
