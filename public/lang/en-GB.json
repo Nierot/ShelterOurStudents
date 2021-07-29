@@ -17,9 +17,9 @@
     },
     "pages": {
         "home": {
-            "text": "TODO leuk tekstje",
-            "help": "TODO I want to help",
-            "need": "TODO I need help"
+            "text": "There is a housing crisis in Groningen! Lots of international students are coming here to study, but find they have nowhere to stay. The university is not taking enough precautions so we all together have to find a solution. This is why we have started a couch surfing initiative. These are people from Groningen helping homeless students out of solidarity.",
+            "help": "I can house someone",
+            "need": "I need housing"
         },
         "about": {
             "whoAreWe": {
@@ -40,24 +40,26 @@
             }
         },
         "haveHouse": {
-            "explanation": "TODO leuk tekstje hiero met verwijzing naar link hieronder",
+            "title": "I can host",
+            "explanation": "There are a lot of new students that are in need of emergency housing, starting in September. If you can provide housing than you can follow the link below. Keep in mind that housing can take many forms from couches and air matresses to spare rooms. Thanks a lot if you are going to help!",
             "link": "Click here to go to the sign up form"
         },
         "needHouse": {
-            "explanation": "TODO leuk tekstje hiero met verwijzing naar link hieronder",
+            "title": "I am in need of shelter",
+            "explanation": "Are you in need for emergency housing? Then click the link below to fill in a form. Keep in mind that people are voluntarily housing you and that it is temporary, so you should keep looking for something permanent. However this is a great way tot not sleep on the street! And do not forget tot help us change the system, because this is not a long term solution. ",
             "link": "Click here to go to the sign up form"
         },
         "privacy": {
-            "explanation": "TODO goed tekstje dat verwijst naar de privacy pdf hieronder",
-            "link": "Click here to view the privacy statement"
+            "explanation": "Here you can find our privacy statement in pdf form. This way you know what you are signing up for!",
+            "link": "Privacy Statement (PDF)"
         },
         "demands": {
             "title": "What are our demands?",
             "text": {
-                "preface": "Of course, this can only be a temporal bandaid on a systematic, and long-term problem. Therefore, we demand that the university:",
+                "preface": "The measures that the University is taking, can only be a temporal bandaid on a systematic, and long-term problem. Therefore, we demand that the university:",
                 "list": [
-                    "Immediately arranges for extra emergency housing for all homeless students in the city.",
-                    "Improves communication about the housing market to internationals, including on scammers next year. ",
+                    "immediately arranges for extra emergency housing for all homeless students in the city.",
+                    "improves communication about the housing market to internationals, including on scammers next year. ",
                     "builds 5000 rooms of student housing on Zernike Campus."
                 ]
             }

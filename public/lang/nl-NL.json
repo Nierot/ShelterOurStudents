@@ -48,8 +48,8 @@
           "link": "Click here to go to the sign up form"
       },
       "privacy": {
-          "explanation": "TODO goed tekstje dat verwijst naar de privacy pdf hieronder",
-          "link": "Click here to view the privacy statement"
+          "explanation": "Here you can find our privacy statement in pdf form. This way you know what you are signing up for!",
+          "link": "Privacy Statement (PDF)"
       },
       "demands": {
           "title": "What are our demands?",
