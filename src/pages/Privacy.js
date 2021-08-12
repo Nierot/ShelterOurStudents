@@ -3,7 +3,7 @@ const Privacy = ({ lang: { pages: { privacy } } }) =>
   <p className="">
     { privacy.explanation }
   </p>
-  <a href="/privacy_statement_SOS_20210728.pdf" className="pt-2 text-secondary underline">
+  <a href="/privacy_statement_SOS_20210812.pdf" className="pt-2 text-secondary underline">
     { privacy.link }
   </a>
 </div>
