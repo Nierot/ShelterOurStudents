@@ -1,66 +1,69 @@
 {
-  "iso": "en-GB",
-  "title": "Shelter Our Students",
-  "menu": {
-      "about": "About us",
-      "haveHouse": "I can host",
-      "needHouse": "I need a house",
-      "privacy": "Privacy",
-      "demands": "Demands"
-  },
-  "footer": {
-      "termsOfUse": "Terms of Use",
-      "privacy": "Privacy",
-      "liability": "Liability",
-      "info": "info",
-      "collaborate": "collaborate"
-  },
-  "pages": {
-      "home": {
-          "text": "TODO leuk tekstje",
-          "help": "TODO I want to help",
-          "need": "TODO I need help"
-      },
-      "about": {
-          "whoAreWe": {
-              "title": "Who are we?",
-              "text": "SOS Shelter our students is a campaign organized by a coalition of different student groups, who are concerned about the housing situation in Groningen. The groups involved are Democratische Academie Groningen, Groningen Feminist Network, Groninger Studentenbond, Internationale Socialisten, Lijst Calimero, and ROOD Groningen. "
-          },
-          "theProblem": {
-              "title": "What is the problem?",
-              "text": "We got together because we anticipate that there will be a huge housing crisis at the beginning of the academic year. An estimated 1300 more students than last year will join the university, and students who stayed elsewhere last year because of online education now have to return. Despite this, the university is only providing 195 beds in emergency housing. We have been asking for months for this to be increased, but the university is not listening. We expect that at the beginning of this academic year there will be students homeless in Groningen."
-          },
-          "toDo": {
-              "title": "What are we going to do?",
-              "text": "Everyone deserves a roof over their head. Therefore we continue campaigning for enough emergency housing now, as well as structural solutions to the housing problem in Groningen. Next to this, we are organizing a couch surfing action. People needing a temporary house can stay for a few days or longer with someone else. For example, maybe in the bedroom of a child that left for university in another town, on the couch in your student house, or on an air mattress in your living room.",
-              "links": {
-                  "host": "I want to help by offering a place",
-                  "need": "I need a place to stay"
-              }
-          }
-      },
-      "haveHouse": {
-          "explanation": "TODO leuk tekstje hiero met verwijzing naar link hieronder",
-          "link": "Click here to go to the sign up form"
-      },
-      "needHouse": {
-          "explanation": "TODO leuk tekstje hiero met verwijzing naar link hieronder",
-          "link": "Click here to go to the sign up form"
-      },
-      "privacy": {
-          "explanation": "Here you can find our privacy statement in pdf form. This way you know what you are signing up for!",
-          "link": "Privacy Statement (PDF)"
-      },
-      "demands": {
-          "title": "What are our demands?",
-          "text": {
-              "preface": "Of course, this can only be a temporal bandaid on a systematic, and long-term problem. Therefore, we demand that the university:",
-              "list": [
-                  "Immediately arranges for extra emergency housing for all homeless students in the city.",
-                  "Improves communication about the housing market to internationals, including on scammers next year. ",
-                  "builds 5000 rooms of student housing on Zernike Campus."
-              ]
-          }
-      }
-  }
+    "iso": "nl-NL",
+    "title": "Shelter Our Students",
+    "menu": {
+        "about": "About us",
+        "haveHouse": "I can host",
+        "needHouse": "I need a house",
+        "privacy": "Privacy",
+        "demands": "Demands"
+    },
+    "footer": {
+        "termsOfUse": "Terms of Use",
+        "privacy": "Privacy",
+        "liability": "Liability",
+        "info": "info",
+        "collaborate": "collaborate",
+        "social": "social media"
+    },
+    "pages": {
+        "home": {
+            "text": "There is a housing crisis in Groningen! Lots of international students are coming here to study, but find they have nowhere to stay. The university is not taking enough precautions so we all together have to find a solution. This is why we have started a couch surfing initiative. These are people from Groningen helping homeless students out of solidarity.",
+            "help": "I can house someone",
+            "need": "I need housing"
+        },
+        "about": {
+            "whoAreWe": {
+                "title": "Who are we?",
+                "text": "SOS Shelter our students is a campaign organized by a coalition of different student groups, who are concerned about the housing situation in Groningen. The groups involved are Democratische Academie Groningen, Groningen Feminist Network, Groninger Studentenbond, Internationale Socialisten, Lijst Calimero, and ROOD Groningen. "
+            },
+            "theProblem": {
+                "title": "What is the problem?",
+                "text": "We got together because we anticipate that there will be a huge housing crisis at the beginning of the academic year. An estimated 1300 more students than last year will join the university, and students who stayed elsewhere last year because of online education now have to return. Despite this, the university is only providing 195 beds in emergency housing. We have been asking for months for this to be increased, but the university is not listening. We expect that at the beginning of this academic year there will be students homeless in Groningen."
+            },
+            "toDo": {
+                "title": "What are we going to do?",
+                "text": "Everyone deserves a roof over their head. Therefore we continue campaigning for enough emergency housing now, as well as structural solutions to the housing problem in Groningen. Next to this, we are organizing a couch surfing action. People needing a temporary house can stay for a few days or longer with someone else. For example, maybe in the bedroom of a child that left for university in another town, on the couch in your student house, or on an air mattress in your living room.",
+                "links": {
+                    "host": "I want to help by offering a place",
+                    "need": "I need a place to stay"
+                }
+            }
+        },
+        "haveHouse": {
+            "title": "I can host",
+            "explanation": "There are a lot of new students that are in need of emergency housing, starting in September. If you can provide housing than you can follow the link below. Keep in mind that housing can take many forms from couches and air matresses to spare rooms. Thanks a lot if you are going to help!",
+            "link": "Click here to go to the sign up form"
+        },
+        "needHouse": {
+            "title": "I am in need of shelter",
+            "explanation": "Are you in need for emergency housing? Then click the link below to fill in a form. Keep in mind that people are voluntarily housing you and that it is temporary, so you should keep looking for something permanent. However this is a great way tot not sleep on the street! And do not forget tot help us change the system, because this is not a long term solution. ",
+            "link": "Click here to go to the sign up form"
+        },
+        "privacy": {
+            "explanation": "Here you can find our privacy statement in pdf form. This way you know what you are signing up for!",
+            "link": "Privacy Statement (PDF)"
+        },
+        "demands": {
+            "title": "What are our demands?",
+            "text": {
+                "preface": "The measures that the University is taking, can only be a temporal bandaid on a systematic, and long-term problem. Therefore, we demand that the university:",
+                "list": [
+                    "immediately arranges for extra emergency housing for all homeless students in the city.",
+                    "improves communication about the housing market to internationals, including on scammers next year. ",
+                    "builds 5000 rooms of student housing on Zernike Campus."
+                ]
+            }
+        }
+    }
 }
