@@ -31,6 +31,9 @@ const Footer = ({ lang }) =>
       <div className="py-2">
         <a href="/have-house">{ lang.menu.haveHouse }</a>
       </div>
+      <div className="py-2">
+        <a href="/join-us">{ lang.menu.joinUs }</a>
+      </div>
     </div>
   </div>
 

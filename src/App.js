@@ -15,6 +15,7 @@ import Home from './pages/Home'
 import HostHouse from './pages/HostHouse'
 import NeedHouse from './pages/NeedHouse'
 import Privacy from './pages/Privacy'
+import JoinUs from './pages/JoinUs'
 
 const App = () => {
 
@@ -49,6 +50,11 @@ const App = () => {
 
             <Route path="/need-house">
               <NeedHouse lang={lang} />
+              <Footer lang={lang} />
+            </Route>
+
+            <Route path="/join-us">
+              <JoinUs lang={lang} />
               <Footer lang={lang} />
             </Route>
 

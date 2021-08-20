@@ -5,6 +5,7 @@ const Menu = ({ lang }) =>
     <MenuItem name={lang.menu.demands} to="/demands" />
     <MenuItem name={lang.menu.haveHouse} to="/host-house"/>
     <MenuItem name={lang.menu.needHouse} to="/need-house"/>
+    <MenuItem name={lang.menu.joinUs} to="/join-us" />
     <MenuItem name={lang.menu.privacy} to="/privacy"/>
   </div>
 </div>

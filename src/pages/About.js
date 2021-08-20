@@ -39,6 +39,9 @@ const About = ({ lang }) => {
             <div className="pt-2 text-secondary underline">
               <a href="/need-house">{toDo.links.need}</a>
             </div>
+            <div className="pt-2 text-secondary underline">
+              <a href="https://forms.gle/7U2ngiKhGrTEFHqv9">{toDo.links.help}</a>
+            </div>
           </div>
         </p>
       </div>

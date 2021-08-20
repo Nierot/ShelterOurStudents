@@ -6,6 +6,7 @@
         "haveHouse": "I can host",
         "needHouse": "I need a house",
         "privacy": "Privacy",
+        "joinUs": "Join us",
         "demands": "Demands"
     },
     "footer": {
@@ -36,7 +37,8 @@
                 "text": "Everyone deserves a roof over their head. Therefore we continue campaigning for enough emergency housing now, as well as structural solutions to the housing problem in Groningen. Next to this, we are organizing a couch surfing action. People needing a temporary house can stay for a few days or longer with someone else. For example, maybe in the bedroom of a child that left for university in another town, on the couch in your student house, or on an air mattress in your living room.",
                 "links": {
                     "host": "I want to help by offering a place",
-                    "need": "I need a place to stay"
+                    "need": "I need a place to stay",
+                    "help": "Join us!"
                 }
             }
         },
@@ -49,6 +51,11 @@
             "title": "I am in need of shelter",
             "explanation": "Are you in need for emergency housing? Then click the link below to fill in a form. Keep in mind that people are voluntarily housing you and that it is temporary, so you should keep looking for something permanent. However this is a great way tot not sleep on the street! And do not forget tot help us change the system, because this is not a long term solution. ",
             "link": "Click here to go to the sign up form"
+        },
+        "joinUs": {
+            "title": "I want to help out!",
+            "explanation": "Want to join Shelter our Students? You could help with organizing actions (protests, banner drops etc.), or with facilitating the couchsurfing project. If you are interested click the link below!",
+            "link": "Click here to sign up to help Shelter our Students"
         },
         "privacy": {
             "explanation": "Here you can find our privacy statement in pdf form. This way you know what you are signing up for!",
