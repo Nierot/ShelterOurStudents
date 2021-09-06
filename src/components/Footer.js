@@ -10,6 +10,10 @@ const Footer = ({ lang }) =>
       </div>
 
       <div className="py-2">
+        <a href="/statement">{ lang.menu.statement }</a>
+      </div>
+
+      <div className="py-2">
         <a href="/demands">{ lang.menu.demands }</a>
       </div>
 
@@ -28,11 +32,17 @@ const Footer = ({ lang }) =>
       <div className="py-2">
         <a href="/need-house">{ lang.menu.needHouse }</a>
       </div>
+      
       <div className="py-2">
         <a href="/have-house">{ lang.menu.haveHouse }</a>
       </div>
+      
       <div className="py-2">
         <a href="/join-us">{ lang.menu.joinUs }</a>
+      </div>
+      
+      <div className="py-2">
+        <a href="/faq">{ lang.menu.faq }</a>
       </div>
     </div>
   </div>

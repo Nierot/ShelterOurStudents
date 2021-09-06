@@ -2,11 +2,13 @@ const Menu = ({ lang }) =>
 <div id="menu" className="z-10 h-auto w-full">
   <div className="grid grid-rows-5">
     <MenuItem name={lang.menu.about} to="/about"/>
+    <MenuItem name={lang.menu.statement} to="/statement" />
     <MenuItem name={lang.menu.demands} to="/demands" />
     <MenuItem name={lang.menu.haveHouse} to="/host-house"/>
     <MenuItem name={lang.menu.needHouse} to="/need-house"/>
     <MenuItem name={lang.menu.joinUs} to="/join-us" />
     <MenuItem name={lang.menu.privacy} to="/privacy"/>
+    <MenuItem name={lang.menu.faq} to="/faq" />
   </div>
 </div>
 
