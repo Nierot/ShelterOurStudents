@@ -24,8 +24,6 @@ const Statement = ({ lang }) => {
 }
 
 const StatementItem = ({ item }) => {
-  console.log(item)
-
   const makeText = (text) => {
     let jsx = []
 
@@ -34,7 +32,7 @@ const StatementItem = ({ item }) => {
         jsx.push(<p className="pb-1" key={idx}>{ item }</p>)
       } else {
         for (const [newIdx, newItem] of item.entries()) {
-          jsx.push(<p className="pb-2" key={idx + newIdx + 10}>{ newItem }</p>)
+          jsx.push(<p className="pb-2 px-2" key={idx + newIdx + 100}>{ newItem }</p>)
         }
       }
     }
@@ -43,7 +41,7 @@ const StatementItem = ({ item }) => {
   }
 
   return <div className="pt-3" key={item.title}>
-    <h2 className="text-lg pb-3">
+    <h2 className="text-lg pb-3 text-secondary">
       { item.title }
     </h2>
     { makeText(item.text) }
