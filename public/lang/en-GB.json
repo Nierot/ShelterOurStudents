@@ -115,7 +115,8 @@
                     }
                 ]
             },
-            "link": "Click here to go to the signing form"
+            "link": "Click here to go to the signing form",
+            "peopleSigned": "people have already signed the statement"
         },
         "faq": [
             {

@@ -1,6 +1,18 @@
+import { useEffect, useState } from "react"
+
+const LATEST_NUMBER = 123
 
 const Statement = ({ lang }) => {
-  const { pages: { statement: { title, text, link } } } = lang
+  const { pages: { statement: { title, text, link, peopleSigned } } } = lang
+
+  const [signed, setSigned] = useState(LATEST_NUMBER)
+
+  useEffect(() => {
+    fetch(`${window.location.origin}/.netlify/functions/people-signed`)
+      .then(data => data.json())
+      .then(data => setSigned(data.peopleSigned))
+      .catch(() => setSigned(LATEST_NUMBER))
+  }, [])
 
   return (
     <div className="px-6 pt-6 pb-12 bg-tertiary">
@@ -17,6 +29,11 @@ const Statement = ({ lang }) => {
         <a className="pt-2 text-secondary underline" href="https://docs.google.com/forms/d/1s-bF434Sov2uEFMxprJcunnTgAtPqQMS8Uqk3VLr1JA/edit?chromeless=1">
           { link }
         </a>
+      </div>
+
+      <div className="pt-2" >
+        <span className="text-secondary text-xl">{ signed }</span>
+        &nbsp;{ peopleSigned }
       </div>
 
     </div>

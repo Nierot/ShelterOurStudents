@@ -1,0 +1,3 @@
+[build]
+    [build.environment]
+        PEOPLE_SIGNED = "123"
