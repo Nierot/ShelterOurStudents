@@ -49,7 +49,17 @@
         "haveHouse": {
             "title": "I can host",
             "explanation": "There are a lot of new students that are in need of emergency housing, starting in September. If you can provide housing then you can follow the link below. Keep in mind that housing can take many forms from couches and air matresses to spare rooms. Thanks a lot if you are going to help!",
-            "link": "Click here to go to the sign up form"
+            "link": "Click here to go to the sign up form",
+            "stories": {
+                "title": "Stories of SOS: Episode 1",
+                "text": [
+                    "Our conversation was almost over when Imran looked straight at me, and for one sentence spoke with the surprising clarity and determination of someone who has no other choice but to make their suffering so explicit that others just won’t be able not to understand them: “ I never faced such a difficult situation in my life “ he told me in a politely quiet but firm tone, “ We just don’t know where to go “. Imrad came to Groningen with his friend Rasel from a small Asian country to pursue a technical degree at the University, as they both thought that a dutch degree would provide them with more opportunities than one from their home country.",
+                    "A degree that will cost them at least 13600€/year, coming from a nation with an average salary of less than 200€ per month. Instead of being able to fully focus on this expensive investment, they are facing homelessnes, in a city they don’t know, in a country whose language they don’t speak and in a culture that is unfamiliar to them. A place which lies more than 7000 kilometers away from their home, with institutions and rules that are foreign to them, without having any friends or family here where they could seek shelter. Their reservation in their hotel will run out by the time of writing, Sunday the 05th, and Imran told me that they were not able to find anything else yet. He doesn’t know what to do anymore.",
+                    "When I asked Imran where he sees the root of the problem, he made it very clear that it was irresponsible of the University to admit way more students than its city could sustain. Additionally, before coming here, it was not communicated to him at all by his school how dire this situation is and how difficult the search would be. They stated that they hope to find something next week, but even though both seemed like very polite, respectful and friendly persons this seems very unlikely given the circumstances."
+                ],
+                "disclaimer": "*All personal data, including their original pictures, were anonymized as they both fear repercussions by their University.",                    
+                "attribute": "(Text by Lukas Stock, original pictures by @pascalmichiel and drawing by @celinda.sos)"
+            }
         },
         "needHouse": {
             "title": "I am in need of shelter",
