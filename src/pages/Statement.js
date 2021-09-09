@@ -15,27 +15,28 @@ const Statement = ({ lang }) => {
   }, [])
 
   return (
-    <div className="px-6 pt-6 pb-12 bg-tertiary">
-      <h1 className="text-2xl pb-3">
-        { title }
-      </h1>
-      <p>
-        { text.preface }
-      </p>
+    <div className="px-6 pt-6 pb-12 bg-tertiary lg:flex lg:flex-row lg:justify-center">
+      <div className="lg:max-w-4xl">
+        <h1 className="text-2xl pb-3">
+          { title }
+        </h1>
+        <p>
+          { text.preface }
+        </p>
 
-      {text.list.map(item => <StatementItem item={item} />)}
+        {text.list.map(item => <StatementItem item={item} />)}
 
-      <div className="pt-2 text-secondary underline">
-        <a className="pt-2 text-secondary underline" href="https://docs.google.com/forms/d/1s-bF434Sov2uEFMxprJcunnTgAtPqQMS8Uqk3VLr1JA/edit?chromeless=1">
-          { link }
-        </a>
+        <div className="pt-2 text-secondary underline">
+          <a className="pt-2 text-secondary underline" href="https://docs.google.com/forms/d/1s-bF434Sov2uEFMxprJcunnTgAtPqQMS8Uqk3VLr1JA/edit?chromeless=1">
+            { link }
+          </a>
+        </div>
+
+        <div className="pt-2" >
+          <span className="text-secondary text-xl">{ signed }</span>
+          &nbsp;{ peopleSigned }
+        </div>
       </div>
-
-      <div className="pt-2" >
-        <span className="text-secondary text-xl">{ signed }</span>
-        &nbsp;{ peopleSigned }
-      </div>
-
     </div>
   )
 }

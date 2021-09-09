@@ -3,16 +3,18 @@ const FAQ = ({ lang }) => {
   const { pages: { faq } } = lang
 
   return (
-    <div className="px-6 pt-6 pb-12 bg-tertiary">
-      {faq.map(faq => {
-        return <div className="pb-3">
-          <h2 className="text-xl">
-            { faq.title }
-          </h2>
-          
-          {faq.items.map(item => <QA question={item.q} answer={item.a} link={item.link} />)}
-        </div>
-      })}
+    <div className="px-6 pt-6 pb-12 bg-tertiary lg:flex lg:flex-row lg:justify-center">
+      <div className="lg:max-w-4xl">
+        {faq.map(faq => {
+          return <div className="pb-3">
+            <h2 className="text-xl">
+              { faq.title }
+            </h2>
+            
+            {faq.items.map(item => <QA question={item.q} answer={item.a} link={item.link} />)}
+          </div>
+        })}
+      </div>
     </div>
   )
 }
